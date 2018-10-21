@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".confirmData">
+
+    <TextView
+        android:id="@+id/txTittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="@string/tittle" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/nameComplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:labelFor="@id/txTittle"
+        android:text="@string/nameComplete">
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/DateBorn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txTittleDateBorn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/tittleDateBorn" >
+        </TextView>
+        <TextView
+            android:id="@+id/txDateBorn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:text="@string/dateBorn">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txTittlePhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/tittlePhone" >
+        </TextView>
+        <TextView
+            android:id="@+id/txPhone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:text="@string/phone">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txTittleEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/tittleEmail" >
+        </TextView>
+        <TextView
+            android:id="@+id/txEmail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:text="@string/email">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txTittleDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/tittleDescription" >
+        </TextView>
+        <TextView
+            android:id="@+id/txDescription"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:text="@string/description">
+        </TextView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:drawable="@color/colorAccent"
+        android:text="@string/editData"
+        />
+</LinearLayout>
